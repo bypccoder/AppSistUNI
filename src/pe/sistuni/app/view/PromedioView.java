@@ -183,7 +183,7 @@ public class PromedioView extends javax.swing.JInternalFrame {
             n4 = Integer.parseInt(txtNumero4.getText());
             n5 = Integer.parseInt(txtNumero5.getText());
        
-        
+        //validaciones
         while (n1 < 0 || n1 > 20) {
                 JOptionPane.showMessageDialog(rootPane, "Número no cumple con el formato correcto");
                 txtNumero1.setText("0");
